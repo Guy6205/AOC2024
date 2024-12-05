@@ -2,7 +2,7 @@
 column1 = []
 column2 = []
 
-with open('data.txt', 'r') as file:
+with open('p1/data.txt', 'r') as file:
     for line in file:
         col1, col2 = map(int, line.split())  
         column1.append(col1)     
